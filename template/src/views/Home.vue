@@ -1,7 +1,13 @@
 <template>
   <div class="">
     <span class="">Welcome to the Vue 3 Template</span>
-    <Button label="This is a PrimeVue button" />
+    <div>
+      <Button label="This is a PrimeVue button" />
+    </div>
+    <div>
+      <span>This is a FontAwesome Icon: </span>
+      <i class="fas fa-user" />
+    </div>
   </div>
 </template>
 
