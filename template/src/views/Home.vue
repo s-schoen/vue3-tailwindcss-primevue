@@ -1,12 +1,12 @@
 <template>
-  <div class="">
+  <div class="bg-gray-300 p-5">
     <span class="">Welcome to the Vue 3 Template</span>
-    <div>
+    <div class="mt-5">
       <Button label="This is a PrimeVue button" />
     </div>
-    <div>
-      <span>This is a FontAwesome Icon: </span>
-      <i class="fas fa-user" />
+    <div class="mt-5">
+      <span>This is a FontAwesome Icon, styled with TailwindCss: </span>
+      <i class="fas fa-user text-green-500" />
     </div>
   </div>
 </template>
